@@ -398,7 +398,7 @@ void App::_readConfig(const string& afilename) {
   _objConfig.readFile(afilename);
   types::config _config = _objConfig.getConfig();
 
-  active_tasks_caption = "Have a nice day!\n";
+  active_tasks_caption = "\n";
   active_tasks_caption +=
       color0 + _config.keys.kb_new_task + span + " to add new task. ";
   active_tasks_caption +=
