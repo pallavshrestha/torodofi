@@ -43,7 +43,9 @@ You can take contents and config examples from **example.cfg**. In this file, yo
 
 Run
 ```bash
-cmake .
+mkdir build
+cd build
+cmake ..
 cmake --build .
 ```
 Then put torodofi executable to PATH.
